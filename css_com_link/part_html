@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="uia.css">
+    <title>Css com estilo em arq separado</title>
+</head>
+<body>
+    <p>Texto em verde escuro com fonte tamanho 18 pontos</p>
+    <p id="elemento">Outro texto</p>
+</body>
+</html>
