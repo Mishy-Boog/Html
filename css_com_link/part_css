@@ -1,0 +1,15 @@
+p{
+    text-align: center;
+    font-size: 18pt;
+    color:darkgreen;
+}
+body{
+    background-color: palegreen;
+}
+h1, h2 ,h3{
+    font-family: Verdana;
+}
+#elemento{
+    text-align: center;
+    color: coral;
+}
