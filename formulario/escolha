@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha</title>
+</head>
+<body>
+    <label for="escolha">Escolha a sua plataforma</label>
+    <input list="escolha_plataforma" id="escolha" name="escolha"/>
+
+    <datalist id="escolha_plataforma">
+        <option value="Xbox Series X">
+        <option value="Xbox Series S">
+        <option value="Playstation 5">
+        <option value="Nintendo Switch">
+        <option value="Switch Lite">
+        <option value="PC">    
+    </datalist>
+</body>
+</html>
