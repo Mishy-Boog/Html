@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanho_NOME</title>
+</head>
+<body>
+    <label for="nome">Nome: </label>
+
+    <input type="text" id="nome" name="nome" required
+            minlength="3" maxlength="10" size="10"> (3 até 10 letras) 
+</body>
+</html>
