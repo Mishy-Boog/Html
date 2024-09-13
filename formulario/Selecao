@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecao</title>
+</head>
+<body>
+    <label for="time-selecao">Escolha seu time</label>
+    <select id="time-selecao">
+        <optgroup label for="Rio de Janeiro">
+            <option>Flamengo</option>
+            <option>Botafogo</option>
+            <option>Fluminense</option>
+            <option>Vasco</option>
+        </optgroup>
+        <optgroup label for="São Paulo"></optgroup>
+            <option>Palmeiras</option>
+            <option>São Paulo</option>
+            <option>Corinthias</option>
+            <option>Santos</option>
+        </optgroup>
+    </select>
+</body>
+</html>
