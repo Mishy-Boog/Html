@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        p{
+            font-size: 12pt;
+            color:magenta;
+        }
+    </style>
+    <title>Trabalho com css</title>
+</head>
+<body>
+    <p>texto em magenta com fonte tamanho 12 pontos</p>
+    <p>outro texto</p>
+</body>
+</html>
