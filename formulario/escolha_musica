@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/enviar.php" method="post">
+        <fieldset>
+            <legend>Escolha seu som</legend>
+            <div><input type="radio" id="Joji" name="grupo">
+            <label for="Joji">
+                <img src="https://i.scdn.co/image/ab67616d00001e028da6404284573219a9b1e2f4" alt="Joji" width="150" height="150">
+            </label></div>
+            <div><input type="radio" id="Two_Feet" name="grupo">
+                <label for="Two_Feet">
+                    <img src="https://m.media-amazon.com/images/I/71J0uqYDnPL._UF1000,1000_QL80_.jpg" alt="Two_Feet" width="150" height="150">
+                </label></div>
+                <div><input type="radio" id="Artic_Monkeys" name="grupo">
+                    <label for="Artic_Monkeys">
+                        <img src="https://m.media-amazon.com/images/I/71-Y-3usHkL._UF1000,1000_QL80_.jpg" alt="Artic_Monkeys" width="150" height="150">
+                    </label></div>
+                    <div><input type="radio" id="Hiosaki" name="grupo">
+                        <label for="Hiosaki">
+                            <img src="data:image/jpeg;base64,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" alt="Hiosaki" width="150" height="150">
+                        </label></div>
+        </fieldset>
+    </form>
+</body>
+</html>
