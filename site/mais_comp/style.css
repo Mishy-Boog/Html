@@ -1,0 +1,115 @@
+body, header, h1, h2, p, ul{
+    margin: 0;
+    padding: 0;
+} /* Reset de margens e preenchimento para o corpo e cabeçalho*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /*Altura minima igual a altura da janela de visualizaçao */
+    margin: 0;
+}
+
+header{
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+main{
+    flex: 1;
+    padding: 20px;
+}
+
+.texto::first-letter{ /* Estilizando a primeira letra de cada paragrafo*/
+font-family: "Papyrus", cursive;
+font-size: 2.8em;
+text-decoration: dotted;
+text-decoration-color: #030303;
+padding: 2px 5px;
+margin-right: 0.8px;
+}
+
+.nav {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul{
+    list-style: none; /* Remove os marcadores da lista*/
+    padding: 0; /*Remove o preenchimento padrão da lista*/
+    display: flex; /* Transforma a lista em um flex container*/
+}
+
+nav li{
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none; /*Remove o sublinhado dos links*/
+    color: #070202;
+    font-weight: bold;
+}
+
+ul{
+    list-style: square;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;/* Espaçamento interno do rodape*/
+    text-align: center;
+}
+
+form label{
+    display: block; /*Coloca cada rotulo em uma nova linha*/
+    margin-bottom: 5px; /* Espaçamento inferior entre rotulos e campos*/
+    font-weight: bold; /*Deixa o texto dos rotulos em negrito*/
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 40%; /*Ocupa a largura disponivel*/
+    padding: 10px; /*Espaçamento interno dos campos */
+    margin-bottom: 15px; /*Espaçamento inferior entre os campos*/
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 5px; /*Borda arrendondada*/
+    font-size: 16px;
+    resize: vertical; /*Permite redimensionar verticalmente apenas*/ /*evitar usar*/
+}
+
+section{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px; /*Espaçamento interno do botão*/
+    border: none; /* Remove a borda do botão */
+    border-radius: 10px; /*Borda arredondada*/
+    cursor: pointer; /*Cursor ao passar o mouse sobre o botao*/
+    font-size: 16px; /*Tamanho da fonte*/
+}
+
+/*Estlizando o botao de envio quando o mouse passa sobre ele*/
+form button:hover{
+    background-color: #0056b3; /*cor de fundo do botao no hover*/
+}
